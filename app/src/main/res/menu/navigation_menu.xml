@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_acc"
+        android:icon="@mipmap/ic_account_circle_black_24dp"
+        android:title="Accounts"/>
+
+    <item android:id="@+id/nav_day"
+        android:title="Day"/>
+
+    <item android:id="@+id/nav_week"
+        android:title="Week"/>
+
+    <item android:id="@+id/nav_month"
+        android:title="Month"/>
+
+    <item android:id="@+id/nav_year"
+        android:title="Year"/>
+
+    <item android:id="@+id/nav_date"
+        android:icon="@mipmap/pickdate"
+        android:title="Pick date"/>
+
+
+</menu>

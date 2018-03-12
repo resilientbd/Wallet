@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">eWallet</string>
+    <string name="open">Open</string>
+    <string name="close">Colse</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="view_data">ViewData</string>
+    <string name="update">Update</string>
+    <string name="add_user">AddUser</string>
+    <string name="delete">Delete</string>
+    <string name="category">Choose Category</string>
+    <string-array name="categories">
+        <item>Deposit</item>
+        <item>Salary</item>
+        <item>Saving</item>
+        <item>Income</item>
+        <item>Bills</item>
+        <item>Car</item>
+        <item>Cash out</item>
+        <item>Communication</item>
+        <item>Cloths</item>
+        <item>Toiletry</item>
+        <item>Transport</item>
+        <item>Study material</item>
+        <item>Entertainment</item>
+        <item>Food</item>
+        <item>Mess</item>
+        <item>House</item>
+        <item>Varitise</item>
+        <item>Eating out</item>
+        <item>Gifts</item>
+        <item>Sports</item>
+        <item>Lend to</item>
+        <item>Lend from</item>
+        <item>Health</item>
+        <item>Etc</item>
+
+    </string-array>
+</resources>

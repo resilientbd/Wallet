@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/sequence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/childItemNote"
+        android:layout_alignBottom="@+id/childItemNote"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="30sp"
+        android:text="seq"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/childItemMoneyCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sequence"
+        android:layout_alignBottom="@+id/sequence"
+        android:layout_toEndOf="@+id/sequence"
+        android:text="BDT"
+        android:textSize="10sp" />
+
+
+    <TextView
+        android:id="@+id/childItemMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/childItemMoneyCurrency"
+        android:layout_alignBottom="@+id/childItemMoneyCurrency"
+        android:layout_toEndOf="@+id/childItemMoneyCurrency"
+        android:layout_marginRight="3sp"
+        android:text="money"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/childItemNote"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/childItemDate"
+        android:layout_alignBottom="@+id/childItemDate"
+        android:layout_toEndOf="@+id/childItemMoney"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/childItemDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:text="date"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

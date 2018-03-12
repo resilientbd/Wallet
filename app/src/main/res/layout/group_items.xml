@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="55dip"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="8dp"
+        android:paddingLeft="35sp"
+        android:paddingTop="8dp"
+        android:text="Heading"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/headingNum"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/heading"
+        android:background="@drawable/round"
+        android:gravity="center"
+        android:text="num"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/groupItemMoneyCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/heading"
+        android:layout_alignBottom="@+id/heading"
+        android:layout_toStartOf="@+id/headingMoney"
+        android:text="BDT"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/headingMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/heading"
+        android:layout_alignBottom="@+id/heading"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="money"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
